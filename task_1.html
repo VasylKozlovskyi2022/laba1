@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="x-icon" href="#">
+    <link rel="stylesheet" href="stale.css">
+    <title>Завдання 1</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="home-link">Головна</a></li>
+                <li><a href="task_1.html">Завдання 1</a></li>
+                <li><a href="task_2.html">Завдання 2</a></li>
+                <li><a href="task_3.html">Завдання 3</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Допомога школяреві:</h1>
+        <p>Залежно від вибору користувачем виду фігури обчислити площу кола, прямокутника або
+            трикутника за вхідними даними.</p>
+    </section>
+    <section>
+        <h2>Калькулятор площі фігур</h2>
+    <select id="shape">
+        <option value="circle">Коло</option>
+        <option value="rectangle">Прямокутник</option>
+        <option value="triangle">Трикутник</option>
+    </select>
+    <p id="inputFields"></p>
+    <button onclick="calculateArea()">Розрахувати площу</button>
+    <div id="result"></div>
+    
+    <script src="script.js"></script>
+    </section>
+</body>
+</html>
